@@ -5,7 +5,7 @@ import json
 from flask import Flask, request, jsonify
 from flask_restplus import Resource, Api, fields
 
-application = app = Flask(__name__)
+app = Flask(__name__)
 api = Api(app)
 
 VERSION = "QA"
